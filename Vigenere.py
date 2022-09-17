@@ -1,5 +1,4 @@
-#Με μία απλή υλοποίηση του Vigenere cipher πετυχαίνουμε έναν απλό αλλά σχετικά αδύναμο τύπο κρυπτογράφησης. 
-#Χρησιμοποιούμε για πίνακα χαρακτήρων τον ASCII στο εύρος 32 με 127.
+#Simple implementation of the Vigenere cipher using ASCII characters in the range of 32 to 127.
 
 def Vigenere(txt, key, type):
     if not txt:
